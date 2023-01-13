@@ -1,0 +1,38 @@
+{
+  "name": "@neos21/remark-pedantic",
+  "version": "0.0.0",
+  "description": "Remark Pedantic",
+  "type": "module",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "author": "Neo <neos21@gmail.com> (https://neos21.net/)",
+  "license": "MIT",
+  "homepage": "https://github.com/Neos21/remark-pedantic#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neos21/remark-pedantic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Neos21/remark-pedantic/issues"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/Neos21"
+  },
+  "dependencies": {
+    "mdast-util-to-markdown": "1.5.0",
+    "micromark-util-chunked": "1.0.0",
+    "micromark-util-classify-character": "1.0.0",
+    "micromark-util-combine-extensions": "1.0.0",
+    "micromark-util-resolve-all": "1.0.0",
+    "micromark-util-symbol": "1.0.1"
+  },
+  "devDependencies": {
+    "rehype-stringify": "9.0.3",
+    "remark-parse": "10.0.1",
+    "remark-rehype": "10.1.0",
+    "unified": "10.1.2"
+  }
+}
